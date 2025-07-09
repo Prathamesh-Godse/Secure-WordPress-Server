@@ -1,3 +1,3 @@
 # Secure-WordPress-Server
 
-## [[Documentation/1.md]]
+## [this one](Documentation/1.md)
