@@ -1,3 +1,3 @@
 # Secure-WordPress-Server
 
-## [[1.md]]
+## [[Documentation/1.md]]
