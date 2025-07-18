@@ -100,10 +100,34 @@
 - Security & Hardening
   - SSH key-based authentication (password login disabled)
   - Fail2Ban to prevent SSH brute-force attacks
--   UFW firewall with strict inbound rules
--   Hardened shared memory and disabled IPv6
--   PHP hardening (disabled dangerous functions, isolated pools)
--   Secure file and directory permissions for WordPress
--   Security headers and rate limiting via NGINX
--   MariaDB hardening and limited SQL privileges
--   NinjaFirewall integration with full WAF mode
+  - UFW firewall with strict inbound rules
+  - Hardened shared memory and disabled IPv6
+  - PHP hardening (disabled dangerous functions, isolated pools)
+  - Secure file and directory permissions for WordPress
+  - Security headers and rate limiting via NGINX
+  - MariaDB hardening and limited SQL privileges
+  - NinjaFirewall integration with full WAF mode
+- Server Optimization
+  - TCP congestion control tuning
+  - Optimized swap and file access settings
+  - Increased file descriptor limits
+  - Network stack hardening
+  - System timezone setup
+- Web Server Configuration
+  - NGINX modular configuration with reusable includes
+  - Custom server blocks for multiple domains
+  - SSL certificate setup and reuse (ssl_all_sites.conf)
+  - Gzip and Brotli compression
+  - Real IP restoration behind Cloudflare
+- Database & PHP Tuning
+  - MariaDB optimization with MySQLTuner
+  - Binary log management and performance tuning
+  - PHP-FPM pool customization and monitoring
+  - OPCache configuration for PHP acceleration
+- WordPress Deployment
+  - Step-by-step WordPress installation
+  - wp-config.php hardening
+  - Disable REST API and post revisions
+  - Use of system cron for better scheduling
+  - Redis-based object caching with WooCommerce support
+  - FastCGI & WP Super Cache integration and management
