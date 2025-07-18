@@ -1,5 +1,7 @@
 # Secure WordPress Server
 
+> A comprehensive guide to deploying, hardening, and optimizing a WordPress server with SSH security, firewall rules, NGINX tuning, PHP/MariaDB hardening, and advanced caching.
+
 ## Table of Contents
 
 ### [1. SSH Setup & Maintenance for Remote Devices](Documentation/1.md)
