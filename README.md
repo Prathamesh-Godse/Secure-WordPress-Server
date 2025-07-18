@@ -98,8 +98,8 @@
 ## features 
 
 - Security & Hardening
--   SSH key-based authentication (password login disabled)
--   Fail2Ban to prevent SSH brute-force attacks
+  - SSH key-based authentication (password login disabled)
+  - Fail2Ban to prevent SSH brute-force attacks
 -   UFW firewall with strict inbound rules
 -   Hardened shared memory and disabled IPv6
 -   PHP hardening (disabled dangerous functions, isolated pools)
