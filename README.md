@@ -90,3 +90,20 @@
 ### [84. Integrating WP Super Cache & Redis Object Cache with WooCommerce Support](Documentation/84.md)
 ### [85. PHP-FPM Pool User Monitoring & On-Demand Configuration](Documentation/85.md)
 ### [86. Restore Real Visitor IP Behind Cloudflare + Cloudflare Optimization](Documentation/86.md)
+
+## About
+
+> This project sets up a production-grade WordPress server from scratch on a Ubuntu Server VPS, focusing on strong security, performance optimization, and system-level hardening. It walks through SSH configuration, firewall setup, brute-force protection, secure NGINX and PHP tuning, MariaDB optimization, SSL integration, and advanced caching — all documented step-by-step.
+
+## features 
+
+- Security & Hardening
+-   SSH key-based authentication (password login disabled)
+-   Fail2Ban to prevent SSH brute-force attacks
+-   UFW firewall with strict inbound rules
+-   Hardened shared memory and disabled IPv6
+-   PHP hardening (disabled dangerous functions, isolated pools)
+-   Secure file and directory permissions for WordPress
+-   Security headers and rate limiting via NGINX
+-   MariaDB hardening and limited SQL privileges
+-   NinjaFirewall integration with full WAF mode
