@@ -2,7 +2,7 @@
 
 > A comprehensive guide to deploying, hardening, and optimizing a WordPress server with SSH security, firewall rules, NGINX tuning, PHP/MariaDB hardening, and advanced caching.
 
-You can check the [here](prathameshgodse.com)
+You can check the [here](https://prathameshgodse.com)
 
 ## Table of Contents
 
