@@ -97,7 +97,7 @@ You can check the website [here](https://prathameshgodse.com)
 
 > This project sets up a production-grade WordPress server from scratch on a Ubuntu Server VPS, focusing on strong security, performance optimization, and system-level hardening. It walks through SSH configuration, firewall setup, brute-force protection, secure NGINX and PHP tuning, MariaDB optimization, SSL integration, and advanced caching — all documented step-by-step.
 
-## features 
+## Features 
 
 - Security & Hardening
   - SSH key-based authentication (password login disabled)
