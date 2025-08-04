@@ -1,1 +1,1 @@
-buffers.conf linguist-language=Shell
+*.conf linguist-language=INI
