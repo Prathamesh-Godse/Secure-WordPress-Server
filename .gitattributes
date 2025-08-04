@@ -1,1 +1,2 @@
 *.conf linguist-language=INI
+*.md linguist-language=MarkDown
