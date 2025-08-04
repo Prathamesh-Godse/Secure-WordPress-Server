@@ -1,1 +1,1 @@
-buffers.conf linguist-language=Config
+Config/*.conf linguist-language=Config
